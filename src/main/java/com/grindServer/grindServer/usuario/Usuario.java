@@ -48,7 +48,7 @@ public class Usuario {
         this.email = email;
     }
 
-    public Usuario( String email, String nombre, String contraseña){
+    public Usuario(String email, String nombre, String contraseña){
         this.nombre = nombre;
         this.contraseña = contraseña;
         this.email = email;
@@ -62,37 +62,5 @@ public class Usuario {
                 ", calorias=" + calorias +
                 "}";
     }
-
-    /* public Long getId() {
-        return id;
-    }
-
-    public String getEmail(){
-        return email;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getContraseña() {
-        return contraseña;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setEmail(String email){
-        this.email = email;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
-    } */
 
 }

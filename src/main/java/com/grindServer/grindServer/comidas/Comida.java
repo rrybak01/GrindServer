@@ -45,8 +45,7 @@ public class Comida {
     @Column(name = "idusuario")
     private Long idUsuario;
 
-    public Comida() {
-    }
+    public Comida() {}
 
     public Comida(Long id, String nombre, Date fecha, Long idUsuario) {
         this.id = id;
@@ -106,6 +105,5 @@ public class Comida {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
     
 }
